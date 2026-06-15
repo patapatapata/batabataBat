@@ -60,6 +60,17 @@ body {
     word-break: break-all; /* 長いテキストの改行対策 */
 }
 
+.lead-text {
+    color: #B66A7D;        /* タイトルと同じモーヴピンク */
+    font-weight: bold;
+    font-size: 1.1rem;
+    word-break: break-all;
+
+    /* --- ここが重要：画像の幅と合わせる設定 --- */
+    max-width: 800px;         /* 画像の最大幅と同じにする */
+    margin: 0 auto 20px auto; /* 左右をautoにして中央寄せ（下側に20pxの余白） */
+}
+
 /* --- イラスト/動画エリア（レスポンシブ） --- */
 .media-placeholder {
     background-color: #eee;
