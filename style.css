@@ -68,7 +68,18 @@ body {
 
     /* --- ここが重要：画像の幅と合わせる設定 --- */
     max-width: 800px;         /* 画像の最大幅と同じにする */
-    margin: 0 auto 20px auto; /* 左右をautoにして中央寄せ（下側に20pxの余白） */
+    margin: 0 auto 0px auto; /* 左右をautoにして中央寄せ（下側に20pxの余白） */
+}
+
+.lead-body-text {
+    color: #333;              /* 本文と同じ色 */
+    font-weight: normal;      /* 通常の太さ（太字にしない） */
+    font-size: 1rem;          /* 本文と同じサイズ */
+    word-break: break-all;
+
+    /* lead-textと全く同じ配置設定 */
+    max-width: 800px;         /* 画像やlead-textの最大幅と同じ */
+    margin: 0 auto 0px auto; /* 左右中央寄せ、下側に余白 */
 }
 
 /* --- イラスト/動画エリア（レスポンシブ） --- */

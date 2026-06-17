@@ -6,9 +6,17 @@
     
     <!-- 【改善】Windows用のデスクトップアプリであることを明確にし、安全性をアピール -->
     <title>無料PDF加工・編集ソフト「ばたばたBat」| Windowsデスクトップ版（ローカル対応）</title>
-    <meta name="description" content="ネットワーク接続を必要としないローカルで動作するPDF加工・編集ツール。PDFを仕上がりサイズにトリミング / 複数のPDFの結合 / PDFのページの整理 / PDFから注釈のあるページを抽出 / PDFを画像に変換 / コンタクトシートを作成 / QRコードの読み取り">
-    <meta property="og:title" content="無料PDF編集ソフト「ばたばたBat」">
-	<meta property="og:description" content="ネットワーク接続を必要としないローカルで動作するPDF加工・編集ツール">
+    <meta name="description" content="ネットワーク接続を必要としないローカルで動作するPDF加工・編集ツール。PDFを仕上がりサイズにトリミング / 複数のPDFの結合 / PDFのページの整理 / PDFから注釈のあるページを抽出 / PDFを画像に変換 / コンタクトシートを作成 / QRコードの読み取り / セキュリティ設定・解除">
+
+    <meta property="og:url" content="https://patapatapata.github.io/batabataBat/"> 
+    <meta property="og:image" content="https://patapatapata.github.io/batabataBat/og-image.png"> 
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- ファビコン指定（検索結果のアイコン表示対策） -->
+    <link rel="icon" href="https://patapatapata.github.io/batabataBat/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://patapatapata.github.io/batabataBat/apple-touch-icon.png">
+	
+	
     <link rel="stylesheet" href="style.css">
     <link rel="canonical" href="https://patapatapata.github.io/batabataBat/">
 	<script type="application/ld+json">
@@ -81,6 +89,9 @@
 			<p class="lead-text">
 				仕上がりサイズでトリミング（横長分割）
 			</p>
+			<p class="lead-body-text">
+					※ページ数が変更される都合上、しおりは引き継げない。
+			</p>
 			<div class="image-container">
 				<img src="img/1-3.svg" alt="横長分割">
 			</div>
@@ -88,7 +99,8 @@
         <section class="sub-section">
             <h2 class="sub-title">複数のPDFの結合</h2>
             <p class="body-text">
-				PDFファイルを順番に結合。
+				PDFファイルを順番に結合。<br>
+				※しおりは消失。
             </p>
             
 			<div class="image-container">
@@ -99,6 +111,7 @@
             <h2 class="sub-title">PDFのページの整理</h2>
             <p class="body-text">
 				ページの入れ替え・削除・別ドキュメントの挿入など。<br>
+				※しおりは消失。<br>
 				画像抽出機能もあり。
             </p>
             
@@ -147,6 +160,18 @@
             
 			<div class="image-container">
 				<img src="img/7.png" alt="QRコードの読み取り">
+			</div>
+        </section>
+        <section class="sub-section">
+            <h2 class="sub-title">セキュリティ設定・解除</h2>
+            <p class="body-text">
+				パスワードを知っているPDFのロックを解除。<br>
+				パスワードを設定してPDFをロック。<br>
+				タイトルや作成者などのプロパティ変更。
+            </p>
+            
+			<div class="image-container">
+				<img src="img/8.png" alt="セキュリティ設定">
 			</div>
         </section>
     </main>
